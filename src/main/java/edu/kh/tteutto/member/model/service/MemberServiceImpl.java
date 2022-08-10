@@ -43,7 +43,7 @@ public class MemberServiceImpl implements MemberService{
 		
 		String encPw = encoder.encode(member.getMemberPw());
 		Member loginMember = dao.login(member.getMemberEmail());
-		
+
 		if(loginMember != null && encoder.matches(member.getMemberPw(), loginMember.getMemberPw())) {
 			
 			loginMember.setMemberPw(null);
