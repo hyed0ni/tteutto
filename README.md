@@ -57,6 +57,11 @@
 
 <br>
 
+## ⛓️ ERD
+![ERD(논리,물리)_뜨또](https://user-images.githubusercontent.com/110330040/186585403-977d28b5-c549-4150-9bbf-f8a007159103.png)
+
+<br>
+
 ## 📂 폴더 구조
 ```
 📦 tteutto
